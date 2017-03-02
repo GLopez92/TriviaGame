@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Trivia Game</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+</head>
+<body>
+	<div class="container">
+			<div class="row">
+				<div id="header" class="col-sm-12">
+					<h1>Totally Trivial Trivia</h1>
+				</div>
+			</div>
+			<div id="timer-position" class="begin row">
+				<div class="col-sm-12">
+					<h3>Time Remaining:<span id="timer"></span></h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12" style="text-align: center;">
+					<div id="question" class="begin"> This is the Question</div>
+					<button id="start" class="middle">Start</button>
+					<div id="comp-prompt" class="begin"></div>
+				</div>
+			</div>
+			<div id="answer-section" class="row">
+				<div class="col-sm-12">
+					<h3 style="margin-bottom: 25px;">The correct Answer:<span id="answer"></span></h3>
+				</div>
+			</div>	
+			<div id="user-guesses" class="begin row">
+				<div class="col-sm-12">
+					<button type="button" class="btn btn-primary btn-lg btn-block"></button>
+					<button type="button" class="btn btn-primary btn-lg btn-block"></button>
+					<button type="button" class="btn btn-primary btn-lg btn-block"></button>
+					<button type="button" class="btn btn-primary btn-lg btn-block"></button>
+				</div>
+			</div>	
+			<div id="pic-changer" class="begin row">
+				<div class="col-sm-12">
+					<div class="picHolder">
+							<img src="assets/images/man.jpg" id="pic"/>
+					</div>
+				</div>
+			</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+	</body>
+</html>
