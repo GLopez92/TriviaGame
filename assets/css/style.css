@@ -66,6 +66,10 @@ body{
 
 }
 
+#comp-prompt{
+	font-size: 25px;
+}
+
 .picHolder{
 	text-align: center;
 
